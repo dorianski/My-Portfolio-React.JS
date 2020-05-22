@@ -1,0 +1,55 @@
+$home_background: url('./home.jpg');
+
+.home {
+    width: 95%;
+    height: 100vh;
+    margin-left: 5%;
+    position: absolute;
+    background-image: $home_background;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homecontent{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.home h1{
+    padding-top: 10vh;
+    font-size: 70px;
+    color: white;
+}
+
+.home h2{
+    padding-top: 3vh;
+    font-size: 55px;
+    color: white;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1200px){
+    .home{
+      width: 92%;
+      margin-left: 8%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .home{
+        height: 100vh;
+        overflow: hidden;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10vh;
+    }
+    .home h1{
+        font-size : 40px;
+    }
+    .home h2{
+        font-size: 25px;
+    }
+  }

@@ -1,0 +1,18 @@
+html,body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}

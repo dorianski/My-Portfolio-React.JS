@@ -1,0 +1,120 @@
+$contact_background: url('./contact.jpg');
+
+.contact {
+    width: 95%;
+    height: 100vh;
+    margin-left: 5%;
+    position: absolute;
+    background-image: $contact_background;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactcontent{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contactcontent p{
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.aboutcontent p{
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.contact h1{
+    padding-top: 5vh;
+    font-size: 60px;
+}
+
+#reused_form{
+    border: 1px solid yellow;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 10%;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
+	border-radius: 10px;
+    border: 0;
+    padding: 25px;
+    min-height: 50vh;
+}
+
+#reused_form button{
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #4aa998;
+    border: none;
+    color: white;
+    border-radius: 10%;
+    font-size: 20px;
+    transition: .2s ease-in-out;
+}
+
+#reused_form button:hover{
+    background-color: #4aa998;
+}
+
+#reused_form label{
+    font-weight: bold;
+    color: black;
+}
+
+#reused_form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
+}
+
+#reused_form textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+#topp{
+    padding-top: 10px;
+}
+
+.paragraph1{
+    margin-top: 5vh;
+    width: 50%;
+    float: left;
+}
+
+.paragraph2{
+    margin-top: 5vh;
+    width: 50%;
+    float: left;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1200px){
+    .contact{
+      width: 92%;
+      margin-left: 8%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .paragraph1{
+        display: none;
+    }
+    .contact{
+        height: auto;
+        overflow-y: scroll;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10vh;
+    }
+}

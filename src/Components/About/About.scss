@@ -1,0 +1,108 @@
+$about_background: url('./about.jpg');
+
+
+.about {
+    width: 95%;
+    height: 100vh;
+    margin-left: 5%;
+    position: absolute;
+    background-image: $about_background;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.aboutcontent{
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.about h1{
+    padding-top: 5vh;
+    font-size: 60px;
+}
+
+hr{
+    width: 25%;
+    margin-left: 0;
+    height: 1px;
+    display: block;
+    margin-top: 3vh;
+}
+
+.paragraph{
+    margin-top: 2vh;
+    width: 90%;
+}
+
+.aboutcontent p{
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.skillset{
+    margin-top: 10vh;
+    float: left;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+}
+
+.skillset h3{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.skillset h3{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.skillset button{
+    margin-top: 20px;
+    width: 35%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 5vh;
+    background-color: white;
+    color: black;
+
+    border: 1px solid grey;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.1s ease-in-out;
+}
+
+.skillset button p{
+    font-size: 20px;
+    padding:4px;
+}
+
+.skillset button:hover{
+    background-color: black;
+    color: red;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1200px){
+    .about{
+      width: 92%;
+      margin-left: 8%;
+      overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .about{
+        height: auto;
+        overflow-y: scroll;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10vh;
+    }
+  }
