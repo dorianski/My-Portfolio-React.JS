@@ -94,7 +94,7 @@ class Portfolio extends React.Component {
                                 <h6>Technologies used :</h6>
                                 <p><i className="fab fa-react"></i>ReactJs</p>
                                 <p>HTML5 CSS3 Javascript Jquery Responsive Web Design SEO</p>
-                                <a href="http://dorianstanciu.com/" target="get_blank"><button>View Live Version</button></a><a href="https://github.com/dorianski/My-Portfolio-no-React-version-" target="get_blank"><button>View Code</button></a>
+                                <a href="http://dorianstanciu.com/" target="get_blank"><button>View Live Version</button></a><a href="https://github.com/dorianski/My-Portfolio-React.JS" target="get_blank"><button>View Code</button></a>
                                 </div>
                             </div>
                     </div>

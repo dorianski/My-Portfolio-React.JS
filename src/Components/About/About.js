@@ -30,6 +30,8 @@ class About extends React.Component {
                                 <button><p>Bootstrap <i className="fab fa-bootstrap"></i></p></button><button><p>JQUERY <i className="fab fa-js"></i></p></button>
                                 <br />
                                 <button><p>SEO <i className="fas fa-search"></i></p></button><button><p>github <i className="fab fa-github"></i></p></button>
+                                <br />
+                                <button><p>React <i className="fab fa-react"></i></p></button><button><p>Redux <i className="fas fa-sitemap"></i></p></button>
                         </div>
 
             </div>

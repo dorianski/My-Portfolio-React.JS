@@ -5,7 +5,6 @@ import Logo from './logo1.png';
 import App from '../App';
 import About from '../About/About';
 import Portfolio from '../Portfolio/Portfolio';
-import Resume from '../Resume/Resume';
 import Contact from '../Contact/Contact';
 import Home from '../Home/Home';
 
@@ -28,10 +27,6 @@ class Nav extends Component {
         this.setState({currentPage: <Portfolio />});
     }
 
-    switchResumeHandler = () => {
-        this.setState({currentPage: <Resume />});
-    }
-
     switchContactHandler = () => {
         this.setState({currentPage: <Contact />});
     }
@@ -40,6 +35,8 @@ class Nav extends Component {
 
 
     render() {
+        
+
 
         return (
 
@@ -56,7 +53,6 @@ class Nav extends Component {
                         <button onClick={this.switchHomeHandler}><li id="home">Home</li></button>
                         <button onClick={this.switchAboutHandler}><li id="about">About</li></button>
                         <button onClick={this.switchPortfolioHandler}><li id="portfolio">Portfolio</li></button>
-                        <button onClick={this.switchResumeHandler}><li id="resume">Resume</li></button>
                         <button onClick={this.switchContactHandler}><li id="contact">Contact</li></button>
 
                         

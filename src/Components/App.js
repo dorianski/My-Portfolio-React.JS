@@ -4,7 +4,6 @@ import './App.scss';
 import Nav from './Nav/Nav';
 import About from './About/About';
 import Portfolio from './Portfolio/Portfolio';
-import Resume from './Resume/Resume';
 import Contact from './Contact/Contact';
 import Home from './Home/Home';
 
