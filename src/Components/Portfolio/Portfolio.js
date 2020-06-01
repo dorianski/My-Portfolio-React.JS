@@ -8,7 +8,6 @@ import project3img from './project3.png';
 import project4img from './project4.png';
 import project5img from './project5.png';
 import project6img from './project6.png';
-import reactIcon from './react.png';
 
 class Portfolio extends React.Component {
     render () {
@@ -79,21 +78,20 @@ class Portfolio extends React.Component {
                                 <p id="topp">This is my personal portfolio website but without React.Js framework</p>
                                 <h6>Technologies used :</h6>
                                 <p>HTML5 CSS3 Javascript Jquery Responsive Web Design SEO</p>
-                                <a href="" target="get_blank"><button>View Live Version</button></a><a href="https://github.com/dorianski/My-Portfolio-no-React-version-" target="get_blank"><button>View Code</button></a>
+                                <a href=""><button>View Live Version</button></a><a href="https://github.com/dorianski/My-Portfolio-no-React-version-" target="get_blank"><button>View Code</button></a>
                                 </div>
                             </div>
 
                             <div className="project6">
                                     <div className="project6left">
                                     <img src={project6img} />
-                                    <img src={reactIcon} id="reactIcon"/>
                                     </div>
 
                                 <div className="project6right">
                                 <p id="topp">This is my personal portfolio website created with React.Js framework</p>
                                 <h6>Technologies used :</h6>
                                 <p><i className="fab fa-react"></i>ReactJs</p>
-                                <p>HTML5 CSS3 Javascript Jquery Responsive Web Design SEO</p>
+                                <p>HTML5 SASS Javascript Jquery Responsive Web Design SEO React Redux</p>
                                 <a href="http://dorianstanciu.com/" target="get_blank"><button>View Live Version</button></a><a href="https://github.com/dorianski/My-Portfolio-React.JS" target="get_blank"><button>View Code</button></a>
                                 </div>
                             </div>

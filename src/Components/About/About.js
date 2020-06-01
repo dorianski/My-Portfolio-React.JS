@@ -25,13 +25,15 @@ class About extends React.Component {
                                 <br />
                                 <button><p>Javascript <i className="fab fa-js"></i></p></button><button><p>Sass <i className="fab fa-sass"></i></p></button>
                                 <br />
+                                <button><p>React <i className="fab fa-react"></i></p></button><button><p>Redux <i className="fas fa-sitemap"></i></p></button>
+                                <br />
                                 <button><p>git <i className="fab fa-git-square"></i></p></button><button><p>Responsive Web Design <i className="fas fa-mobile-alt"></i></p></button>
                                 <br />
                                 <button><p>Bootstrap <i className="fab fa-bootstrap"></i></p></button><button><p>JQUERY <i className="fab fa-js"></i></p></button>
                                 <br />
                                 <button><p>SEO <i className="fas fa-search"></i></p></button><button><p>github <i className="fab fa-github"></i></p></button>
                                 <br />
-                                <button><p>React <i className="fab fa-react"></i></p></button><button><p>Redux <i className="fas fa-sitemap"></i></p></button>
+                                <button><p>Webpack <i className="fab fa-react"></i></p></button><button><p>Babel <i className="fas fa-sitemap"></i></p></button>
                         </div>
 
             </div>
